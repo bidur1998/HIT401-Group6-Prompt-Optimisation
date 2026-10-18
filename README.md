@@ -177,8 +177,8 @@ Label distribution: 9 negative, 6 positive, 5 neutral.
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/<your-username>/hit401-group6-prompt-optimisation.git
-cd hit401-group6-prompt-optimisation
+git clone https://github.com/bidur1998/HIT401-Group6-Prompt-Optimisation.git
+cd HIT401-Group6-Prompt-Optimisation
 
 # 2. Create and activate a virtual environment
 python -m venv .venv
@@ -308,5 +308,3 @@ Let *n* = number of iterations (4) and *N* = number of samples (20).
 ## Academic use
 
 This repository was produced for the HIT401 unit at Charles Darwin University. Please cite our report if you reuse the code or data.
-#   H I T 4 0 1 - G r o u p 6 - P r o m p t - O p t i m i s a t i o n  
- 
