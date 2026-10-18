@@ -1,0 +1,5 @@
+Prompt Technique,Average Accuracy (%)
+baseline,91.25
+instruction,93.125
+role,85.625
+structured,81.25

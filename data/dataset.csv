@@ -1,0 +1,21 @@
+id,text,expected_label
+1,The customer service team resolved my issue within minutes and were incredibly polite.,positive
+2,I've used better products for half the price.,negative
+3,The package arrived on Tuesday as scheduled.,neutral
+4,"Honestly, I expected so much more for this price and it broke after two days.",negative
+5,This is hands down the best coffee maker I've owned.,positive
+6,"It works, I guess. Nothing special about it.",neutral
+7,"Yeah, great, another update that slows my phone down even more.",negative
+8,The staff went above and beyond to make our stay memorable.,positive
+9,The manual was confusing and left out several key steps.,negative
+10,The store closes at 9pm on weekdays.,neutral
+11,I can't believe how smooth and intuitive this app is to use.,positive
+12,"Not terrible, but not great either, just average.",neutral
+13,"This restaurant ruined our anniversary dinner with slow, careless service.",negative
+14,"Wow, five hours on hold, exactly what I wanted today.",negative
+15,The new update fixed all the bugs I was experiencing.,positive
+16,The colour of the product matched the pictures online.,neutral
+17,The build quality feels cheap and the buttons stick.,negative
+18,Every interaction with their support team has been a delight.,positive
+19,The delivery was delayed by three days without any notification.,negative
+20,"It's fine for basic tasks, but don't expect it to handle anything demanding.",negative

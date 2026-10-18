@@ -1,0 +1,5 @@
+Metric Pair,Correlation Coefficient (r),Strength
+Accuracy vs Reliability (%),0.4463,Moderate positive
+Accuracy vs Consistency (%),0.4494,Moderate positive
+Accuracy vs Pairwise Agreement (%),0.4487,Moderate positive
+Accuracy vs Cohen's Kappa,0.4731,Moderate positive

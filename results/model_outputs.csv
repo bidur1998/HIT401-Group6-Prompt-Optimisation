@@ -1,0 +1,482 @@
+id,text,model,iteration,expected_label,baseline_output,baseline_raw_output,instruction_output,instruction_raw_output,role_output,role_raw_output,structured_output,structured_raw_output
+1,The customer service team resolved my issue within minutes and were incredibly polite.,meta-llama/Llama-3.1-8B-Instruct,1,positive,positive,"The sentiment of the text is **positive**. The use of words like ""resolved"", ""incredibly polite"", and the overall tone of the sentence convey a sense of satisfaction and appreciation, indicating a positive sentiment.",positive,Positive,positive,"After analyzing the text, I would classify the sentiment as **Positive**.
+
+The text mentions that the customer service team ""resolved my issue within minutes"", which suggests a high level of efficiency and effectiveness. Additionally, the team is described as being ""incredibly polite"", which implies a positive tone and a pleasant interaction.
+
+There are no negative words or phrases in the text, and the language used is straightforward and complimentary. Overall, the sentiment is overwhelmingly positive, indicating that the customer is satisfied with the service they received.",positive,"{""sentiment"": ""positive""}"
+2,I've used better products for half the price.,meta-llama/Llama-3.1-8B-Instruct,1,negative,negative,"The sentiment of the text is Negative. The phrase ""I've used better products"" implies that the product being referred to is not satisfactory, and the comparison to a product that is ""half the price"" suggests that the product is not worth the cost.",negative,Negative,negative,"A straightforward text with a clear sentiment!
+
+The sentiment of the text is **Negative**.
+
+The phrase ""I've used better products"" is a clear indication of dissatisfaction, and the comparison to products that are ""half the price"" implies that the speaker is not only unhappy with the product's quality, but also its value for money. The tone is blunt and critical, with no hint of sarcasm or irony.",negative,"{""sentiment"": ""negative""}"
+3,The package arrived on Tuesday as scheduled.,meta-llama/Llama-3.1-8B-Instruct,1,neutral,neutral,"The sentiment of the text is neutral. The text simply states a fact without expressing any emotion or opinion, and it does not contain any words or phrases that would suggest a positive or negative tone.",neutral,Neutral,positive,"After analyzing the text, I would classify the sentiment as **Positive**.
+
+The reason is that the text explicitly states that the package arrived ""as scheduled"", which implies that the customer is satisfied with the delivery time and that the service met their expectations. The tone is straightforward and matter-of-fact, without any hint of disappointment or frustration. The use of the word ""as scheduled"" also suggests a sense of reliability and trustworthiness, which is a positive attribute. Overall, the sentiment is upbeat and indicates a satisfactory experience.",positive,"{""sentiment"": ""positive""}"
+4,"Honestly, I expected so much more for this price and it broke after two days.",meta-llama/Llama-3.1-8B-Instruct,1,negative,negative,"The sentiment of the text is negative. The speaker expresses disappointment and frustration with the product, mentioning that it broke after a short period of time, which is a clear indication of dissatisfaction.",negative,Negative,negative,"After analyzing the text, I would classify the sentiment as **Negative**.
+
+Here's why:
+
+* The phrase ""Honestly, I expected so much more"" implies a sense of disappointment and unmet expectations.
+* The word ""broke"" is a strong negative word that suggests the product failed to function as expected.
+* The fact that it broke after only two days implies a lack of durability and quality, which is a negative aspect of the product.
+
+Overall, the text conveys a sense of dissatisfaction and disappointment with the product, which is why I classify the sentiment as Negative.",negative,"{""sentiment"": ""negative""}"
+5,This is hands down the best coffee maker I've owned.,meta-llama/Llama-3.1-8B-Instruct,1,positive,positive,"The sentiment of the text is **positive**. The phrase ""hands down the best"" is a strong expression of enthusiasm and endorsement, indicating that the speaker is extremely satisfied with the coffee maker.",positive,Positive,positive,"After analyzing the text, I would classify the sentiment as **Positive**.
+
+The phrase ""hands down the best"" is a strong expression of enthusiasm and endorsement, indicating that the speaker is extremely satisfied with their coffee maker. The use of ""hands down"" implies a clear and decisive preference, which further reinforces the positive sentiment.",positive,"{""sentiment"": ""positive""}"
+6,"It works, I guess. Nothing special about it.",meta-llama/Llama-3.1-8B-Instruct,1,neutral,neutral,"The sentiment of the text is neutral. The phrase ""I guess"" suggests a lack of enthusiasm or strong opinion, and the phrase ""Nothing special about it"" implies a lack of excitement or praise. Overall, the tone is matter-of-fact and unenthusiastic, rather than positive or negative.",neutral,Neutral,negative,"After analyzing the text, I would classify the sentiment as **Negative**.
+
+Although the text starts with a neutral phrase ""It works, I guess"", which might suggest a neutral tone, the second part ""Nothing special about it"" implies a lack of enthusiasm and a sense of disappointment. The phrase ""Nothing special about it"" is a subtle way of expressing dissatisfaction, implying that the product or service is unremarkable and doesn't stand out in any way.
+
+The tone is also slightly sarcastic, with the phrase ""I guess"" being a hesitant and somewhat dismissive way of acknowledging that the product works. Overall, the sentiment is leaning towards negative, as the text conveys a sense of mediocrity and lack of excitement.",neutral,"{""sentiment"": ""neutral""}"
+7,"Yeah, great, another update that slows my phone down even more.",meta-llama/Llama-3.1-8B-Instruct,1,negative,negative,"The sentiment of the text is negative. The use of the word ""another"" implies that the speaker has had a previous negative experience with updates, and the phrase ""slows my phone down even more"" is a clear expression of dissatisfaction.",negative,Negative,negative,"After analyzing the text, I would classify the sentiment as **Negative**.
+
+Here's why:
+
+* The phrase ""Yeah, great"" is a sarcastic expression, indicating that the speaker is not genuinely pleased with the update.
+* The phrase ""another update that slows my phone down even more"" is a clear statement of dissatisfaction, implying that the speaker is experiencing a negative consequence (slow phone) due to the update.
+
+The tone is sarcastic and critical, which suggests a negative sentiment.",negative,"{""sentiment"": ""negative""}"
+8,The staff went above and beyond to make our stay memorable.,meta-llama/Llama-3.1-8B-Instruct,1,positive,positive,"The sentiment of the text is positive. The phrase ""went above and beyond"" is an idiom that means to do more than what is expected or required, and in this context, it implies that the staff provided exceptional service, making the stay memorable.",positive,Positive,positive,"After analyzing the text, I would classify the sentiment as **Positive**.
+
+The phrase ""went above and beyond"" is a strong indicator of a positive sentiment, as it implies that the staff went to great lengths to provide exceptional service and create a memorable experience for the customer. The use of the word ""memorable"" also suggests that the stay was enjoyable and impactful, further reinforcing the positive tone of the text.",positive,"{""sentiment"": ""positive""}"
+9,The manual was confusing and left out several key steps.,meta-llama/Llama-3.1-8B-Instruct,1,negative,negative,"The sentiment of the text is negative. The use of the word ""confusing"" implies a negative experience, and the mention of ""several key steps"" being left out suggests a lack or deficiency, which further reinforces the negative sentiment.",negative,Negative,negative,"After analyzing the text, I would classify the sentiment as **Negative**.
+
+The use of the word ""confusing"" is a strong indicator of a negative sentiment, as it implies that the manual was difficult to understand or follow. Additionally, the phrase ""left out several key steps"" suggests that the manual was incomplete or inadequate, which further reinforces the negative sentiment.
+
+While the tone is not overly aggressive or emotional, the text still conveys a clear sense of dissatisfaction and frustration with the manual.",negative,"{""sentiment"": ""negative""}"
+10,The store closes at 9pm on weekdays.,meta-llama/Llama-3.1-8B-Instruct,1,neutral,neutral,The sentiment of the text is neutral. The text simply states a fact about the store's hours and does not express any opinion or emotion.,neutral,Neutral,neutral,"After analyzing the text, I would classify the sentiment as **Neutral**.
+
+The text simply states a fact about the store's operating hours, without expressing any opinion, emotion, or tone. It's a straightforward piece of information that doesn't convey any positive or negative sentiment. The tone is matter-of-fact and objective, providing a factual detail without any emotional connotation.",neutral,"{""sentiment"": ""neutral""}"
+11,I can't believe how smooth and intuitive this app is to use.,meta-llama/Llama-3.1-8B-Instruct,1,positive,positive,"The sentiment of the text is positive. The words ""smooth"", ""intuitive"", and the phrase ""I can't believe"" (which is an expression of surprise and admiration) all contribute to a positive tone.",positive,Positive,positive,"After analyzing the text, I would classify the sentiment as **Positive**.
+
+The language used is extremely positive, with the phrase ""I can't believe"" implying a strong sense of surprise and admiration. The use of the words ""smooth"" and ""intuitive"" to describe the app's usability also suggests a high level of satisfaction and approval. The tone is enthusiastic and appreciative, indicating that the speaker is genuinely impressed with the app's performance.",positive,"{""sentiment"": ""positive""}"
+12,"Not terrible, but not great either, just average.",meta-llama/Llama-3.1-8B-Instruct,1,neutral,neutral,"The sentiment of the text is neutral. The text describes the quality as ""average"", which is a neutral assessment, neither praising nor criticizing it.",neutral,Neutral,negative,"A delightfully nuanced text!
+
+After analyzing the text, I would classify the sentiment as **Negative**. Here's why:
+
+* The phrase ""Not terrible"" is a backhanded compliment, implying that the experience was at least somewhat unpleasant, but not as bad as it could have been.
+* The phrase ""but not great either"" reinforces the idea that the experience was mediocre, rather than exceptional.
+* The final phrase ""just average"" explicitly states that the experience was, well, average – which is a neutral term, but in this context, it's a euphemism for ""unimpressive"" or ""underwhelming"".
+
+Overall, while the text doesn't contain overtly negative language, the tone is decidedly unenthusiastic and suggests that the experience was, at best, unremarkable.",neutral,"{""sentiment"": ""neutral""}"
+13,"This restaurant ruined our anniversary dinner with slow, careless service.",meta-llama/Llama-3.1-8B-Instruct,1,negative,negative,"The sentiment of the text is negative. The use of the word ""ruined"" and the description of the service as ""slow"" and ""careless"" convey a strong negative emotion.",negative,Negative,negative,"Based on my analysis, I would classify the sentiment of the text as **Negative**.
+
+Here's why:
+
+* The word ""ruined"" is a strong negative word that implies a significant and irreversible impact on the customer's experience.
+* The phrase ""slow, careless service"" is a clear criticism of the restaurant's service, implying that it was inadequate and unprofessional.
+* The context of the text is an anniversary dinner, which is typically a special and celebratory occasion. The customer's experience was likely ruined by the restaurant's poor service, making the sentiment even more negative.
+
+Overall, the text conveys a strong sense of disappointment, frustration, and dissatisfaction with the restaurant's service, making the sentiment clearly negative.",negative,"{""sentiment"": ""negative""}"
+14,"Wow, five hours on hold, exactly what I wanted today.",meta-llama/Llama-3.1-8B-Instruct,1,negative,negative,"I would classify the sentiment of the text as negative. The phrase ""five hours on hold"" is a clear indication of frustration and annoyance, and the tone of the sentence is sarcastic, implying that the speaker did not want to spend that amount of time on hold.",negative,Negative,negative,"A delightfully sarcastic comment!
+
+After analyzing the text, I would classify the sentiment as **Negative**. The phrase ""exactly what I wanted today"" is a clear example of sarcasm, implying that the speaker is actually frustrated and unhappy with the experience of being on hold for five hours. The tone is ironic and mocking, suggesting that the speaker is expressing the opposite of their true feelings.",negative,"{""sentiment"": ""negative""}"
+15,The new update fixed all the bugs I was experiencing.,meta-llama/Llama-3.1-8B-Instruct,1,positive,positive,"The sentiment of the text is **positive**. The fact that the update fixed all the bugs implies that the speaker was experiencing problems before, and now they are resolved, which is a positive outcome.",positive,Positive,neutral,"After analyzing the text, I would classify the sentiment as **Neutral**.
+
+The text states a fact (""The new update fixed all the bugs I was experiencing"") without expressing any emotions or opinions. The tone is straightforward and informative, without any hint of enthusiasm, satisfaction, or dissatisfaction. The sentence is simply a statement of resolution to a problem, without any emotional connotation.",positive,"{""sentiment"": ""positive""}"
+16,The colour of the product matched the pictures online.,meta-llama/Llama-3.1-8B-Instruct,1,neutral,positive,The sentiment of the text is: Positive,neutral,Neutral,neutral,"After analyzing the text, I would classify the sentiment as **Neutral**.
+
+The text simply states a fact about the product's color matching the online pictures, without expressing any opinion, emotion, or evaluation. It's a straightforward, factual statement that doesn't convey any positive or negative sentiment. The tone is matter-of-fact and neutral, without any hint of enthusiasm, disappointment, or sarcasm.",positive,"{""sentiment"": ""positive""}"
+17,The build quality feels cheap and the buttons stick.,meta-llama/Llama-3.1-8B-Instruct,1,negative,negative,"The sentiment of the text is negative. The words ""cheap"" and ""stick"" have negative connotations, implying that the product's quality is poor.",negative,Negative,negative,"After analyzing the text, I would classify the sentiment as **Negative**.
+
+The phrase ""build quality feels cheap"" is a direct criticism, implying that the product's construction is subpar. The use of the word ""cheap"" is a strong negative adjective that suggests a lack of quality or attention to detail.
+
+The second part of the sentence, ""the buttons stick"", further reinforces the negative sentiment. The implication is that the product's design or manufacturing is flawed, leading to a functional issue (the buttons sticking).
+
+Overall, the text expresses a clear dissatisfaction with the product's quality, making the sentiment negative.",negative,"{""sentiment"": ""negative""}"
+18,Every interaction with their support team has been a delight.,meta-llama/Llama-3.1-8B-Instruct,1,positive,positive,"The sentiment of the text is **positive**. The word ""delight"" is a strong positive emotion that suggests a pleasant and enjoyable experience.",positive,Positive,positive,"A delightfully straightforward text!
+
+After analyzing the text, I would classify the sentiment as **Positive**. The word ""delight"" is a strong positive emotive word that conveys a sense of pleasure, enjoyment, and satisfaction. The use of ""every interaction"" also implies that the customer has had multiple experiences with the support team, and all of them have been positive. The tone is upbeat and enthusiastic, suggesting that the customer is genuinely happy with the support team's performance.",positive,"{
+  ""sentiment"": ""positive""
+}"
+19,The delivery was delayed by three days without any notification.,meta-llama/Llama-3.1-8B-Instruct,1,negative,negative,"The sentiment of the text is negative. The use of the word ""delayed"" implies a negative outcome, and the fact that there was no notification suggests a lack of consideration for the customer's time or inconvenience.",negative,Negative,negative,"After analyzing the text, I would classify the sentiment as **Negative**.
+
+Although the text only states a fact about the delivery being delayed and the lack of notification, the tone is implied to be negative due to the absence of any positive language or mitigating circumstances. The use of the word ""without any notification"" suggests that the customer was not kept informed about the delay, which is likely to be frustrating and disappointing for them.
+
+In sentiment analysis, it's not just about the literal meaning of the words, but also about the implied tone and the customer's emotional experience. In this case, the text implies a sense of inconvenience, frustration, and possibly even anger, which are all negative emotions.",negative,"{""sentiment"": ""negative""}"
+20,"It's fine for basic tasks, but don't expect it to handle anything demanding.",meta-llama/Llama-3.1-8B-Instruct,1,negative,negative,"The sentiment of the text is negative. The use of the word ""fine"" in a somewhat lukewarm way, and the explicit statement that it ""won't handle anything demanding"" implies a lack of enthusiasm and a limitation.",negative,Negative,negative,"After analyzing the text, I would classify the sentiment as **Negative**.
+
+The phrase ""It's fine for basic tasks"" is a neutral statement, but the following phrase ""but don't expect it to handle anything demanding"" is a clear warning, implying that the product or service has limitations. The use of the word ""demanding"" also suggests that the speaker has high expectations, which the product fails to meet. The tone is subtle, but the overall sentiment is negative, as the speaker is cautioning others not to have high hopes for the product's capabilities.",neutral,"{""sentiment"": ""neutral""}"
+1,The customer service team resolved my issue within minutes and were incredibly polite.,meta-llama/Llama-3.1-8B-Instruct,2,positive,positive,"The sentiment of the text is **positive**. The use of words such as ""resolved"", ""incredibly polite"", and the overall tone of the sentence convey a sense of satisfaction and appreciation, indicating a positive sentiment.",positive,Positive,positive,"After analyzing the text, I would classify the sentiment as **Positive**.
+
+The text mentions that the customer service team ""resolved my issue within minutes"", which implies a sense of efficiency and effectiveness. Additionally, the team was described as being ""incredibly polite"", which suggests a high level of courtesy and professionalism.
+
+The use of the word ""incredibly"" to describe the team's politeness also adds a sense of emphasis and enthusiasm, which further reinforces the positive sentiment. Overall, the text presents a very favorable view of the customer service team, which is why I classify the sentiment as positive.",positive,"{""sentiment"": ""positive""}"
+2,I've used better products for half the price.,meta-llama/Llama-3.1-8B-Instruct,2,negative,negative,"The sentiment of the text is Negative. The phrase ""I've used better products"" implies that the product being referred to is not satisfactory, and the comparison to a product that is ""half the price"" suggests that the product is overpriced.",negative,Negative,negative,"A straightforward text with a clear sentiment!
+
+The sentiment of the text is **Negative**.
+
+The phrase ""I've used better products"" is a clear indicator of dissatisfaction, and the comparison to products that are ""half the price"" implies that the speaker is not only unhappy with the product but also feels that it's overpriced. The tone is blunt and critical, making it a clear negative sentiment.",negative,"{""sentiment"": ""negative""}"
+3,The package arrived on Tuesday as scheduled.,meta-llama/Llama-3.1-8B-Instruct,2,neutral,neutral,"The sentiment of the text is neutral. The text simply states a fact about the arrival of a package, without expressing any emotion or opinion.",neutral,Neutral,positive,"After analyzing the text, I would classify the sentiment as **Positive**.
+
+The reason is that the text explicitly states that the package arrived ""as scheduled"", which implies that the customer is satisfied with the delivery time and that the company met its commitments. The tone is straightforward and matter-of-fact, without any negative or sarcastic undertones. The text simply conveys a positive outcome, which suggests a positive sentiment.",positive,"{""sentiment"": ""positive""}"
+4,"Honestly, I expected so much more for this price and it broke after two days.",meta-llama/Llama-3.1-8B-Instruct,2,negative,negative,"The sentiment of the text is negative. The speaker expresses disappointment and frustration with the product, expecting more value for their money, and the fact that it broke after a short period of time reinforces the negative sentiment.",negative,Negative,negative,"After analyzing the text, I would classify the sentiment as **Negative**.
+
+Here's why:
+
+* The phrase ""Honestly, I expected so much more"" implies a sense of disappointment and unmet expectations.
+* The word ""broke"" is a strong negative verb that suggests a failure or malfunction of the product.
+* The fact that it broke after only two days implies a lack of durability or quality, which is a significant negative aspect.
+
+While the text does not contain overtly aggressive or critical language, the tone is clearly dissatisfied and disappointed, which leans towards a negative sentiment.",negative,"{""sentiment"": ""negative""}"
+5,This is hands down the best coffee maker I've owned.,meta-llama/Llama-3.1-8B-Instruct,2,positive,positive,"The sentiment of the text is **positive**. The phrase ""hands down the best"" is a strong expression of enthusiasm and endorsement, indicating that the speaker is extremely satisfied with the coffee maker.",positive,Positive,positive,"After analyzing the text, I would classify the sentiment as **Positive**.
+
+The phrase ""hands down the best"" is a strong expression of enthusiasm and endorsement, indicating that the speaker is extremely satisfied with their coffee maker. The use of ""hands down"" implies a clear and decisive preference, which further reinforces the positive sentiment.",positive,"{""sentiment"": ""positive""}"
+6,"It works, I guess. Nothing special about it.",meta-llama/Llama-3.1-8B-Instruct,2,neutral,neutral,"The sentiment of the text is neutral. The phrase ""I guess"" is a neutral phrase that indicates a lack of enthusiasm, and the phrase ""Nothing special about it"" is a negative statement, but overall the tone is more neutral than negative.",neutral,Neutral,negative,"After analyzing the text, I would classify the sentiment as **Negative**.
+
+Here's why:
+
+* The phrase ""I guess"" is a hedge that implies a lack of enthusiasm or conviction. It's a way of expressing a minimal level of satisfaction, rather than a genuine endorsement.
+* The phrase ""Nothing special about it"" is a clear negative statement that implies the product or service is unremarkable and lacks any standout features or qualities.
+
+While the text doesn't contain overtly negative language, the tone is decidedly lukewarm and unenthusiastic. The speaker seems to be acknowledging that the product or service works, but that's about it. There's no excitement, no praise, and no encouragement to use or recommend it. Overall, the sentiment is negative, but it's a subtle and nuanced one.",neutral,"{""sentiment"": ""neutral""}"
+7,"Yeah, great, another update that slows my phone down even more.",meta-llama/Llama-3.1-8B-Instruct,2,negative,negative,"The sentiment of the text is negative. The use of the word ""another"" implies that the speaker is already experiencing issues with their phone's performance, and the phrase ""slows my phone down even more"" suggests that this update is exacerbating the problem, which is likely frustrating for the speaker.",negative,Negative,negative,"A great example of a text that requires nuanced analysis!
+
+After carefully examining the text, I would classify the sentiment as **Negative**. Here's why:
+
+* The phrase ""Yeah, great"" is a sarcastic expression, which is a clear indicator of a negative sentiment. The speaker is being ironic, implying that the update is not great at all.
+* The phrase ""another update that slows my phone down even more"" is a complaint, which further reinforces the negative sentiment. The speaker is expressing frustration and disappointment with the update's impact on their phone's performance.
+
+However, it's worth noting that the tone is not extremely negative, and the language is not overly aggressive. The speaker's tone is more resigned and frustrated, which is why I wouldn't classify it as extremely negative. Nevertheless, the sentiment is still negative, as the speaker is expressing dissatisfaction with the update.",negative,"{""sentiment"": ""negative""}"
+8,The staff went above and beyond to make our stay memorable.,meta-llama/Llama-3.1-8B-Instruct,2,positive,positive,"The sentiment of the text is positive. The phrase ""went above and beyond"" is an idiomatic expression that means to exceed expectations, and the context suggests that the staff's efforts were successful in making the stay memorable, which is a positive outcome.",positive,Positive,positive,"After analyzing the text, I would classify the sentiment as **Positive**.
+
+The phrase ""went above and beyond"" is a strong indicator of a positive sentiment, as it implies that the staff went to great lengths to provide exceptional service and create a memorable experience for the customer. The use of the word ""memorable"" also suggests that the stay was enjoyable and impactful, further reinforcing the positive tone of the text.",positive,"{""sentiment"": ""positive""}"
+9,The manual was confusing and left out several key steps.,meta-llama/Llama-3.1-8B-Instruct,2,negative,negative,"The sentiment of the text is negative. The use of the word ""confusing"" implies a negative experience, and the mention of ""several key steps"" being left out suggests a lack or deficiency, which further reinforces the negative sentiment.",negative,Negative,negative,"After analyzing the text, I would classify the sentiment as **negative**.
+
+The use of the word ""confusing"" is a strong indicator of a negative sentiment, as it implies that the manual was difficult to understand or follow. Additionally, the phrase ""left out several key steps"" suggests that the manual was incomplete or inadequate, which further reinforces the negative sentiment.
+
+While the text is not overly aggressive or emotive, the tone is clearly critical and suggests that the speaker is dissatisfied with the quality of the manual.",negative,"{""sentiment"": ""negative""}"
+10,The store closes at 9pm on weekdays.,meta-llama/Llama-3.1-8B-Instruct,2,neutral,neutral,The sentiment of the text is neutral. The text simply states a fact about the store's hours and does not express a positive or negative emotion.,neutral,Neutral,neutral,"After analyzing the text, I would classify the sentiment as **Neutral**.
+
+The text simply states a fact about the store's operating hours, without expressing any opinion, emotion, or tone. It's a straightforward piece of information that doesn't convey any positive or negative sentiment. The tone is matter-of-fact and informative, rather than enthusiastic or critical.",neutral,"{""sentiment"": ""neutral""}"
+11,I can't believe how smooth and intuitive this app is to use.,meta-llama/Llama-3.1-8B-Instruct,2,positive,positive,"The sentiment of the text is positive. The words ""smooth"", ""intuitive"", and ""can't believe"" all convey a sense of admiration and satisfaction with the app.",positive,Positive,positive,"After analyzing the text, I would classify the sentiment as **Positive**.
+
+The language used is overwhelmingly positive, with words like ""smooth"" and ""intuitive"" conveying a sense of ease and simplicity. The phrase ""I can't believe"" is often used to express surprise and admiration, which further reinforces the positive tone. The tone is also enthusiastic and appreciative, suggesting that the speaker is genuinely impressed with the app's user experience.",positive,"{""sentiment"": ""positive""}"
+12,"Not terrible, but not great either, just average.",meta-llama/Llama-3.1-8B-Instruct,2,neutral,neutral,"The sentiment of the text is neutral. The text describes a middle-of-the-road experience, neither good nor bad, but rather average.",neutral,Neutral,negative,"A delightfully nuanced text!
+
+After analyzing the text, I would classify the sentiment as **Negative**. Here's why:
+
+* The phrase ""Not terrible"" is a backhanded compliment, implying that the experience was at least not bad, but not necessarily good either.
+* The phrase ""but not great either"" reinforces the idea that the experience was mediocre, rather than exceptional.
+* The final phrase ""just average"" explicitly states that the experience was, well, average. This is a neutral term, but in the context of the entire sentence, it leans towards a negative sentiment.
+
+Overall, the text conveys a sense of disappointment and lack of enthusiasm, which is characteristic of a negative sentiment.",neutral,"{""sentiment"": ""neutral""}"
+13,"This restaurant ruined our anniversary dinner with slow, careless service.",meta-llama/Llama-3.1-8B-Instruct,2,negative,negative,"The sentiment of the text is negative. The use of the word ""ruined"" and the description of the service as ""slow"" and ""careless"" convey a strong negative emotion.",negative,Negative,negative,"Based on the text, I would classify the sentiment as **Negative**.
+
+The language used is quite strong, with words like ""ruined"", ""slow"", and ""careless"", which convey a sense of disappointment and frustration. The phrase ""our anniversary dinner"" also implies that the occasion was special and important, making the poor service even more impactful. The tone is critical and disapproving, indicating a negative sentiment.",negative,"{""sentiment"": ""negative""}"
+14,"Wow, five hours on hold, exactly what I wanted today.",meta-llama/Llama-3.1-8B-Instruct,2,negative,negative,"The sentiment of the text is clearly negative. The phrase ""exactly what I wanted today"" is likely being used in a sarcastic or ironic way, implying that the speaker did not want to spend five hours on hold.",negative,Negative,negative,"A delightfully sarcastic comment!
+
+After analyzing the text, I would classify the sentiment as **Negative**. The phrase ""exactly what I wanted today"" is a clear example of sarcasm, implying that the speaker is actually frustrated and annoyed with the long wait time. The tone is ironic and mocking, suggesting that the speaker is unhappy with the experience.",negative,"{""sentiment"": ""negative""}"
+15,The new update fixed all the bugs I was experiencing.,meta-llama/Llama-3.1-8B-Instruct,2,positive,positive,"The sentiment of the text is **positive**. The fact that the update fixed the bugs implies that the speaker was experiencing problems, but the resolution of those problems is presented as a positive outcome.",positive,Positive,positive,"After analyzing the text, I would classify the sentiment as **Positive**.
+
+The reason for this classification is that the text explicitly states that the new update ""fixed all the bugs"" the writer was experiencing, which implies a resolution to a problem they were facing. The tone is also straightforward and matter-of-fact, without any negative language or emotional undertones. The writer's satisfaction with the update is evident, and the text conveys a sense of relief and accomplishment.",positive,"{""sentiment"": ""positive""}"
+16,The colour of the product matched the pictures online.,meta-llama/Llama-3.1-8B-Instruct,2,neutral,neutral,"The sentiment of the text is: Neutral.
+
+This text simply states a fact, without expressing any opinion or emotion. It neither praises nor criticizes the product, so it's classified as neutral.",neutral,Neutral,neutral,"After analyzing the text, I would classify the sentiment as **Neutral**.
+
+The text simply states a fact about the product's color matching the online pictures, without expressing any emotions or opinions. It's a straightforward, factual statement that doesn't convey any enthusiasm, disappointment, or other sentiment.",positive,"{""sentiment"": ""positive""}"
+17,The build quality feels cheap and the buttons stick.,meta-llama/Llama-3.1-8B-Instruct,2,negative,negative,"The sentiment of the text is negative. The words ""cheap"" and ""stick"" have negative connotations, implying that the product's quality is poor.",negative,Negative,negative,"After analyzing the text, I would classify the sentiment as **Negative**.
+
+The phrase ""build quality feels cheap"" is a direct criticism, implying that the product's construction is subpar. The word ""cheap"" has a strong negative connotation, suggesting a lack of quality or value.
+
+The second part of the sentence, ""the buttons stick"", further reinforces the negative sentiment. The use of the word ""stick"" implies a mechanical failure or a design flaw, which is a clear negative aspect of the product.
+
+Overall, the text expresses a clear dissatisfaction with the product's build quality, making the sentiment negative.",negative,"{""sentiment"": ""negative""}"
+18,Every interaction with their support team has been a delight.,meta-llama/Llama-3.1-8B-Instruct,2,positive,positive,"The sentiment of the text is **positive**. The word ""delight"" is a strong positive emotion that suggests a pleasant and enjoyable experience.",positive,Positive,positive,"After analyzing the text, I would classify the sentiment as **Positive**.
+
+The phrase ""a delight"" is a strong positive expression that suggests a high level of satisfaction and enjoyment. The use of the word ""delight"" implies that the interactions with the support team have been pleasant, enjoyable, and perhaps even exceeding expectations. The tone is upbeat and enthusiastic, which further reinforces the positive sentiment.",positive,"{
+  ""sentiment"": ""positive""
+}"
+19,The delivery was delayed by three days without any notification.,meta-llama/Llama-3.1-8B-Instruct,2,negative,negative,"The sentiment of the text is negative. The use of the word ""delayed"" implies that something went wrong, and the lack of notification suggests a lack of communication or consideration for the customer.",negative,Negative,negative,"After analyzing the text, I would classify the sentiment as **Negative**.
+
+Although the text only states a fact about the delivery being delayed and the lack of notification, the tone is implied to be negative due to the absence of any positive language or mitigating circumstances. The use of the word ""without any notification"" suggests that the customer was not kept informed about the delay, which can be frustrating and disappointing. The tone is also somewhat critical, implying that the customer expected a more proactive approach from the company.",negative,"{""sentiment"": ""negative""}"
+20,"It's fine for basic tasks, but don't expect it to handle anything demanding.",meta-llama/Llama-3.1-8B-Instruct,2,negative,negative,"The sentiment of the text is negative. The use of the word ""fine"" in a somewhat lukewarm way, and the explicit statement that it ""won't handle anything demanding"" suggests a lack of enthusiasm and a critical tone.",negative,Negative,negative,"After analyzing the text, I would classify the sentiment as **Negative**.
+
+The text starts with a neutral phrase ""It's fine for basic tasks"", which might seem positive at first glance. However, the tone is somewhat lukewarm and doesn't convey enthusiasm or excitement. The phrase ""but don't expect it to handle anything demanding"" is a clear warning and a limitation, which implies that the speaker is not impressed with the product's capabilities.
+
+The use of the word ""fine"" is also noteworthy. While it's a neutral word, it's often used to convey a sense of mediocrity or lack of excitement. In this context, it suggests that the product is not exceptional or impressive, but rather adequate for simple tasks.
+
+Overall, the tone of the text is cautionary and implies that the product has its limitations, which is why I classify the sentiment as Negative.",neutral,"{""sentiment"": ""neutral""}"
+1,The customer service team resolved my issue within minutes and were incredibly polite.,meta-llama/Llama-3.1-8B-Instruct,3,positive,positive,"The sentiment of the text is **positive**. The use of words like ""resolved"", ""incredibly polite"", and the overall tone of the sentence convey a sense of satisfaction and appreciation for the customer service team's efforts.",positive,Positive,positive,"After analyzing the text, I would classify the sentiment as **Positive**.
+
+The text mentions that the customer service team ""resolved my issue within minutes"", which suggests a high level of efficiency and effectiveness. Additionally, the team is described as being ""incredibly polite"", which implies a positive tone and a pleasant interaction.
+
+There are no negative words or phrases in the text, and the language used is straightforward and complimentary. Overall, the sentiment is overwhelmingly positive, indicating a high level of satisfaction with the customer service team's performance.",positive,"{""sentiment"": ""positive""}"
+2,I've used better products for half the price.,meta-llama/Llama-3.1-8B-Instruct,3,negative,negative,"The sentiment of the text is Negative. The phrase ""I've used better products"" implies that the product being referred to is not satisfactory, and the comparison to a product that is ""half the price"" suggests that the product is not worth the cost.",negative,Negative,negative,"A straightforward text with a clear sentiment!
+
+The sentiment of the text is **Negative**.
+
+The phrase ""I've used better products"" is a clear indication of dissatisfaction, and the comparison to products that are ""half the price"" implies that the speaker is not only unhappy with the product's quality, but also its value for money. The tone is blunt and critical, with no hint of sarcasm or irony.",negative,"{""sentiment"": ""negative""}"
+3,The package arrived on Tuesday as scheduled.,meta-llama/Llama-3.1-8B-Instruct,3,neutral,neutral,"The sentiment of the text is neutral. The text simply states a fact about the arrival of a package, without expressing any opinion or emotion.",neutral,Neutral,positive,"After analyzing the text, I would classify the sentiment as **Positive**.
+
+The reason is that the text explicitly states that the package arrived ""as scheduled"", which implies that the customer is satisfied with the timely delivery of their package. The use of the word ""as scheduled"" also suggests a sense of reliability and trustworthiness, which is a positive tone. There is no hint of sarcasm, irony, or any negative emotions in the text, making it a straightforward positive sentiment.",positive,"{""sentiment"": ""positive""}"
+4,"Honestly, I expected so much more for this price and it broke after two days.",meta-llama/Llama-3.1-8B-Instruct,3,negative,negative,"The sentiment of the text is negative. The speaker expresses disappointment and frustration with the product, stating that it broke after a short period of time, which is not what they expected for the price they paid.",negative,Negative,negative,"After analyzing the text, I would classify the sentiment as **Negative**.
+
+Here's why:
+
+* The phrase ""Honestly, I expected so much more"" implies a sense of disappointment and unmet expectations.
+* The use of the word ""broke"" suggests a failure or malfunction, which is a negative outcome.
+* The fact that the product broke after only two days implies a lack of durability or quality, which is a negative attribute.
+* The tone of the text is also somewhat critical, with the speaker expressing a sense of disillusionment with the product's performance.
+
+Overall, while the text is not extremely vitriolic, the sentiment is clearly negative, reflecting the speaker's disappointment and frustration with the product's performance.",negative,"{""sentiment"": ""negative""}"
+5,This is hands down the best coffee maker I've owned.,meta-llama/Llama-3.1-8B-Instruct,3,positive,positive,"The sentiment of the text is **positive**. The phrase ""hands down the best"" is a strong expression of enthusiasm and endorsement, indicating that the speaker is extremely satisfied with the coffee maker.",positive,Positive,positive,"After analyzing the text, I would classify the sentiment as **Positive**.
+
+The phrase ""hands down the best"" is a strong expression of enthusiasm and endorsement, indicating that the speaker is extremely satisfied with their coffee maker. The use of ""hands down"" also implies a sense of certainty and conviction, which further reinforces the positive sentiment. Overall, the tone of the text is upbeat and celebratory, suggesting that the speaker is genuinely delighted with their purchase.",positive,"{""sentiment"": ""positive""}"
+6,"It works, I guess. Nothing special about it.",meta-llama/Llama-3.1-8B-Instruct,3,neutral,neutral,"The sentiment of the text is neutral. The phrase ""I guess"" is a neutral phrase that indicates a lack of enthusiasm, and the phrase ""Nothing special about it"" is also neutral, implying that the speaker doesn't have a strong opinion either way.",neutral,Neutral,negative,"After analyzing the text, I would classify the sentiment as **Negative**.
+
+Here's why:
+
+* The phrase ""I guess"" is a hedge that implies a lack of enthusiasm or conviction. It's a way of expressing a lukewarm opinion rather than a genuine endorsement.
+* The phrase ""Nothing special about it"" is a clear negative statement. It implies that the product or service is unremarkable and lacks any distinguishing features.
+
+While the text does contain the phrase ""It works"", which might suggest a neutral or even positive sentiment, the overall tone and language used convey a sense of resignation and disappointment. The speaker seems to be acknowledging that the product or service is functional, but not particularly impressive or noteworthy.",neutral,"{""sentiment"": ""neutral""}"
+7,"Yeah, great, another update that slows my phone down even more.",meta-llama/Llama-3.1-8B-Instruct,3,negative,negative,"The sentiment of the text is negative. The use of the word ""great"" in a sarcastic tone, combined with the phrase ""slows my phone down even more"", indicates a negative attitude towards the update.",negative,Negative,negative,"After analyzing the text, I would classify the sentiment as **negative**.
+
+The language used is quite blunt and critical, with phrases like ""Yeah, great"" (which is a sarcastic expression of disappointment) and ""another update that slows my phone down even more"" (which implies that the update has had a negative impact on the user's experience). The tone is clearly frustrated and annoyed, indicating a negative sentiment.",negative,"{""sentiment"": ""negative""}"
+8,The staff went above and beyond to make our stay memorable.,meta-llama/Llama-3.1-8B-Instruct,3,positive,positive,"The sentiment of the text is positive. The phrase ""went above and beyond"" is an idiomatic expression that means to exceed expectations or go to great lengths, which in this context implies a high level of effort and dedication from the staff. The word ""memorable"" also suggests a positive outcome.",positive,Positive,positive,"After analyzing the text, I would classify the sentiment as **Positive**.
+
+The phrase ""went above and beyond"" is a strong indicator of a positive sentiment, as it implies that the staff went to great lengths to exceed expectations and provide an exceptional experience. The use of the word ""memorable"" also suggests that the stay was enjoyable and impactful, further reinforcing the positive sentiment. Overall, the tone of the text is enthusiastic and appreciative, indicating a positive sentiment.",positive,"{""sentiment"": ""positive""}"
+9,The manual was confusing and left out several key steps.,meta-llama/Llama-3.1-8B-Instruct,3,negative,negative,"The sentiment of the text is negative. The use of the word ""confusing"" implies a negative experience, and the mention of ""several key steps"" being left out suggests a lack or deficiency, which further reinforces the negative sentiment.",negative,Negative,negative,"After analyzing the text, I would classify the sentiment as **Negative**.
+
+The use of the word ""confusing"" is a strong indicator of a negative sentiment, as it implies that the manual was difficult to understand or follow. Additionally, the phrase ""left out several key steps"" suggests that the manual was incomplete or inadequate, which further reinforces the negative sentiment.
+
+There is no language in the text that suggests a positive or neutral sentiment, so the overall sentiment is clearly negative.",negative,"{""sentiment"": ""negative""}"
+10,The store closes at 9pm on weekdays.,meta-llama/Llama-3.1-8B-Instruct,3,neutral,neutral,The sentiment of the text is neutral. The text simply states a fact about the store's hours and does not express any opinion or emotion.,neutral,Neutral,neutral,"After analyzing the text, I would classify the sentiment as **Neutral**.
+
+The text simply states a fact about the store's operating hours, without expressing any opinion, emotion, or tone. It's a straightforward piece of information that doesn't convey any positive or negative sentiment. The tone is matter-of-fact and objective, providing a factual detail without any emotional connotation.",neutral,"{""sentiment"": ""neutral""}"
+11,I can't believe how smooth and intuitive this app is to use.,meta-llama/Llama-3.1-8B-Instruct,3,positive,positive,"The sentiment of the text is positive. The words ""smooth"" and ""intuitive"" convey a sense of ease and simplicity, which are both positive qualities.",positive,Positive,positive,"After analyzing the text, I would classify the sentiment as **Positive**.
+
+The language used is overwhelmingly positive, with words like ""smooth"" and ""intuitive"" conveying a sense of ease and simplicity. The phrase ""I can't believe"" is often used to express surprise and admiration, which further reinforces the positive tone. The tone is also enthusiastic and appreciative, suggesting that the speaker is genuinely impressed with the app's user experience.",positive,"{""sentiment"": ""positive""}"
+12,"Not terrible, but not great either, just average.",meta-llama/Llama-3.1-8B-Instruct,3,neutral,neutral,"The sentiment of the text is neutral. The text describes a middle-of-the-road experience, neither good nor bad, but rather average.",neutral,Neutral,negative,"A delightfully nuanced text!
+
+After analyzing the text, I would classify the sentiment as **Negative**. Here's why:
+
+* The phrase ""Not terrible"" is a backhanded compliment, implying that the experience was at least somewhat unpleasant, but not as bad as it could have been.
+* The phrase ""but not great either"" reinforces the idea that the experience was mediocre, rather than exceptional.
+* The final phrase ""just average"" explicitly states that the experience was, well, average. This is a neutral assessment, but in the context of the entire sentence, it's a negative evaluation.
+
+Overall, the sentiment is negative because it highlights the lack of enthusiasm or excitement, and instead emphasizes the mediocrity of the experience.",neutral,"{""sentiment"": ""neutral""}"
+13,"This restaurant ruined our anniversary dinner with slow, careless service.",meta-llama/Llama-3.1-8B-Instruct,3,negative,negative,"The sentiment of the text is negative. The use of the word ""ruined"" and the description of the service as ""slow"" and ""careless"" convey a strong negative emotion.",negative,Negative,negative,"Based on my analysis, I would classify the sentiment of the text as **Negative**.
+
+Here's why:
+
+* The word ""ruined"" is a strong negative word that implies a significant and irreversible impact on the customer's experience.
+* The phrase ""slow, careless service"" is a clear criticism of the restaurant's service, implying that it was inadequate and unprofessional.
+* The context of the text is an anniversary dinner, which is typically a special and celebratory occasion. The customer's experience being ruined suggests that the restaurant's poor service overshadowed the occasion and made it less enjoyable.
+
+Overall, the text expresses a clear and strong negative sentiment towards the restaurant's service.",negative,"{""sentiment"": ""negative""}"
+14,"Wow, five hours on hold, exactly what I wanted today.",meta-llama/Llama-3.1-8B-Instruct,3,negative,negative,"The sentiment of the text is clearly negative. The phrase ""exactly what I wanted today"" is likely being used in a sarcastic or ironic way, implying that the speaker did not want to spend five hours on hold.",negative,Negative,negative,"A delightfully sarcastic comment!
+
+After analyzing the text, I would classify the sentiment as **Negative**. The phrase ""exactly what I wanted today"" is a clear example of sarcasm, implying that the speaker is unhappy with the experience of being on hold for five hours. The tone is ironic and mocking, suggesting that the speaker is frustrated and annoyed with the situation.",negative,"{""sentiment"": ""negative""}"
+15,The new update fixed all the bugs I was experiencing.,meta-llama/Llama-3.1-8B-Instruct,3,positive,positive,"The sentiment of the text is **positive**. The fact that the update fixed all the bugs implies that the speaker was experiencing problems before, and now they are resolved, which is a positive outcome.",positive,Positive,neutral,"After analyzing the text, I would classify the sentiment as **Neutral**.
+
+The text states a fact (""The new update fixed all the bugs I was experiencing"") without expressing any emotions or opinions. The tone is straightforward and informative, without any hint of enthusiasm, satisfaction, or dissatisfaction. The sentence is simply a statement of resolution to a problem, without any additional context or emotional tone.",positive,"{""sentiment"": ""positive""}"
+16,The colour of the product matched the pictures online.,meta-llama/Llama-3.1-8B-Instruct,3,neutral,neutral,"The sentiment of the text is: Neutral.
+
+This text simply states a fact, without expressing any opinion or emotion. It neither praises nor criticizes the product, so it's a neutral statement.",neutral,Neutral,neutral,"After analyzing the text, I would classify the sentiment as **Neutral**.
+
+The text simply states a fact about the product's color matching the online pictures, without expressing any opinion, emotion, or evaluation. It's a straightforward and factual statement, which doesn't convey any positive or negative tone. The tone is more informative than evaluative, making it a neutral sentiment.",positive,"{""sentiment"": ""positive""}"
+17,The build quality feels cheap and the buttons stick.,meta-llama/Llama-3.1-8B-Instruct,3,negative,negative,"The sentiment of the text is negative. The words ""cheap"" and ""stick"" have negative connotations, implying that the product's quality is poor.",negative,Negative,negative,"After analyzing the text, I would classify the sentiment as **Negative**.
+
+The phrase ""build quality feels cheap"" is a direct criticism, implying that the product's construction is subpar. The use of the word ""cheap"" is a strong negative adjective that suggests a lack of quality or attention to detail.
+
+Additionally, the phrase ""the buttons stick"" is another negative comment, implying that the product's design or manufacturing is flawed, leading to a frustrating user experience.
+
+Overall, the text expresses a clear dissatisfaction with the product's quality, making the sentiment negative.",negative,"{""sentiment"": ""negative""}"
+18,Every interaction with their support team has been a delight.,meta-llama/Llama-3.1-8B-Instruct,3,positive,positive,"The sentiment of the text is **positive**. The word ""delight"" is a strong positive emotion that suggests a pleasant and enjoyable experience.",positive,Positive,positive,"After analyzing the text, I would classify the sentiment as **Positive**.
+
+The phrase ""a delight"" is a strong positive expression that suggests a high level of satisfaction and enjoyment. The use of the word ""delight"" implies a sense of pleasure and happiness, which is a clear indicator of a positive sentiment. The fact that the customer has had multiple interactions with the support team and still uses the word ""delight"" to describe them suggests a consistent and high-quality experience, which further reinforces the positive sentiment.",positive,"{
+  ""sentiment"": ""positive""
+}"
+19,The delivery was delayed by three days without any notification.,meta-llama/Llama-3.1-8B-Instruct,3,negative,negative,"The sentiment of the text is negative. The use of the word ""delayed"" implies that something went wrong, and the lack of notification suggests a lack of communication or consideration for the customer.",negative,Negative,negative,"After analyzing the text, I would classify the sentiment as **Negative**.
+
+Although the text only states a fact about the delivery being delayed and the lack of notification, the tone is implied to be negative due to the absence of any positive language or mitigating circumstances. The use of the word ""without any notification"" suggests that the customer was not kept informed about the delay, which is likely to be frustrating and disappointing for them.
+
+In sentiment analysis, it's not just about the literal meaning of the words, but also about the underlying tone and implications. In this case, the text implies a sense of inconvenience, frustration, and possibly even a breach of trust (if the customer was expecting timely communication about the delay). Therefore, I would classify the sentiment as Negative.",negative,"{""sentiment"": ""negative""}"
+20,"It's fine for basic tasks, but don't expect it to handle anything demanding.",meta-llama/Llama-3.1-8B-Instruct,3,negative,negative,"The sentiment of the text is negative. The phrase ""don't expect it to handle anything demanding"" implies a lack of capability and suggests that the subject is not suitable for more complex tasks.",negative,Negative,negative,"After analyzing the text, I would classify the sentiment as **Negative**.
+
+The text implies that the subject (likely a product or service) is sufficient for simple tasks, but it lacks the capabilities to handle more complex or demanding tasks. The use of the word ""fine"" is somewhat neutral, but the phrase ""don't expect it to handle anything demanding"" is a clear negative statement, implying that the subject is not capable or reliable in situations where it's needed most.",neutral,"{
+  ""sentiment"": ""neutral""
+}"
+1,The customer service team resolved my issue within minutes and were incredibly polite.,meta-llama/Llama-3.1-8B-Instruct,4,positive,positive,"The sentiment of the text is **positive**. The use of words like ""resolved"", ""incredibly polite"", and the overall tone of the sentence convey a sense of satisfaction and appreciation, indicating a positive sentiment.",positive,Positive,positive,"After analyzing the text, I would classify the sentiment as **Positive**.
+
+The text mentions that the customer service team ""resolved my issue within minutes"", which implies a sense of efficiency and effectiveness. Additionally, the team was described as being ""incredibly polite"", which suggests a high level of courtesy and respect.
+
+The use of the word ""incredibly"" to describe the team's politeness also adds a sense of emphasis, implying that the team's politeness was exceptional and noteworthy. Overall, the text conveys a positive tone and suggests that the customer had a very satisfactory experience with the customer service team.",positive,"{""sentiment"": ""positive""}"
+2,I've used better products for half the price.,meta-llama/Llama-3.1-8B-Instruct,4,negative,negative,"The sentiment of the text is Negative. The phrase ""I've used better products"" implies that the product being referred to is not satisfactory, and the comparison to a product that is ""half the price"" suggests that the product is overpriced.",negative,Negative,negative,"A straightforward text with a clear sentiment!
+
+The sentiment of the text is **Negative**.
+
+The phrase ""I've used better products"" is a clear indicator of dissatisfaction, and the comparison to products that are ""half the price"" implies that the speaker feels they've been overcharged or that the product is not worth the cost. The tone is also somewhat dismissive and critical, which reinforces the negative sentiment.",negative,"{""sentiment"": ""negative""}"
+3,The package arrived on Tuesday as scheduled.,meta-llama/Llama-3.1-8B-Instruct,4,neutral,neutral,"The sentiment of the text is neutral. The text simply states a fact about the arrival of a package, without expressing any emotion or opinion.",neutral,Neutral,positive,"After analyzing the text, I would classify the sentiment as **Positive**.
+
+The reason is that the text explicitly states that the package arrived ""as scheduled"", which implies that the customer is satisfied with the delivery time and that the service has met their expectations. The use of the word ""as"" also suggests a sense of confirmation or verification, which reinforces the positive tone. There is no hint of criticism, complaint, or disappointment in the text, which further supports the positive sentiment.",positive,"{""sentiment"": ""positive""}"
+4,"Honestly, I expected so much more for this price and it broke after two days.",meta-llama/Llama-3.1-8B-Instruct,4,negative,negative,"The sentiment of the text is negative. The speaker expresses disappointment and frustration with the product, stating that it broke after a short period of use, and implies that the price was not justified by the quality of the product.",negative,Negative,negative,"After analyzing the text, I would classify the sentiment as **Negative**.
+
+Here's why:
+
+* The phrase ""Honestly, I expected so much more"" implies a sense of disappointment and unmet expectations.
+* The word ""broke"" is a strong negative word that suggests the product failed to perform as expected.
+* The fact that it broke after only two days implies a lack of durability, which is a significant negative aspect.
+* The tone of the sentence is also somewhat critical, with a hint of frustration and disappointment.
+
+Overall, the sentiment of the text is negative, as it expresses dissatisfaction with the product's performance and value for money.",negative,"{""sentiment"": ""negative""}"
+5,This is hands down the best coffee maker I've owned.,meta-llama/Llama-3.1-8B-Instruct,4,positive,positive,"The sentiment of the text is **positive**. The phrase ""hands down the best"" is a strong expression of enthusiasm and endorsement, indicating that the speaker is extremely satisfied with the coffee maker.",positive,Positive,positive,"After analyzing the text, I would classify the sentiment as **Positive**.
+
+The phrase ""hands down the best"" is a strong expression of enthusiasm and endorsement, indicating that the speaker is extremely satisfied with their coffee maker. The use of ""hands down"" implies a clear and decisive preference, which further reinforces the positive sentiment.",positive,"{""sentiment"": ""positive""}"
+6,"It works, I guess. Nothing special about it.",meta-llama/Llama-3.1-8B-Instruct,4,neutral,negative,"The sentiment of the text is Negative. The phrase ""I guess"" is a neutral phrase, but the overall tone is negative due to the lack of enthusiasm and the phrase ""Nothing special about it"", which implies a lack of excitement or satisfaction.",neutral,Neutral,negative,"After analyzing the text, I would classify the sentiment as **Negative**.
+
+Although the text contains the phrase ""It works, I guess"", which might seem neutral or even positive at first glance, the overall tone is actually quite lukewarm. The phrase ""I guess"" is a hedge that implies a lack of enthusiasm or conviction. Additionally, the phrase ""Nothing special about it"" explicitly conveys a negative sentiment, implying that the product or service is unremarkable and lacks any standout features.
+
+The tone is also somewhat sarcastic, with the phrase ""I guess"" being used in a way that suggests the speaker is not entirely convinced that the product works, or that they're not particularly impressed by it. Overall, the sentiment is more negative than neutral, as the speaker's tone is more critical than enthusiastic.",neutral,"{""sentiment"": ""neutral""}"
+7,"Yeah, great, another update that slows my phone down even more.",meta-llama/Llama-3.1-8B-Instruct,4,negative,negative,"The sentiment of the text is negative. The use of the word ""another"" implies that the speaker has had a previous negative experience, and the phrase ""slows my phone down even more"" is a clear expression of dissatisfaction.",negative,Negative,negative,"After analyzing the text, I would classify the sentiment as **Negative**.
+
+Here's why:
+
+* The phrase ""Yeah, great"" is a sarcastic expression, indicating that the speaker is not genuinely pleased with the update.
+* The phrase ""another update that slows my phone down even more"" is a clear statement of dissatisfaction, implying that the speaker is experiencing a negative consequence (slow phone) due to the update.
+
+The tone is sarcastic and critical, which suggests a negative sentiment.",negative,"{""sentiment"": ""negative""}"
+8,The staff went above and beyond to make our stay memorable.,meta-llama/Llama-3.1-8B-Instruct,4,positive,positive,"The sentiment of the text is positive. The phrase ""went above and beyond"" is an idiomatic expression that means to exceed expectations or go to great lengths, which in this context implies a high level of effort and dedication from the staff. The word ""memorable"" also suggests a positive outcome.",positive,Positive,positive,"After analyzing the text, I would classify the sentiment as **Positive**.
+
+The phrase ""went above and beyond"" is a strong indicator of a positive sentiment, as it implies that the staff went to great lengths to provide exceptional service and create a memorable experience for the customer. The use of the word ""memorable"" also suggests that the stay was enjoyable and impactful, further reinforcing the positive tone of the text.",positive,"{""sentiment"": ""positive""}"
+9,The manual was confusing and left out several key steps.,meta-llama/Llama-3.1-8B-Instruct,4,negative,negative,"The sentiment of the text is negative. The use of the word ""confusing"" implies a negative experience, and the mention of ""several key steps"" being left out suggests a lack or deficiency, which further reinforces the negative sentiment.",negative,Negative,negative,"After analyzing the text, I would classify the sentiment as **Negative**.
+
+The use of the word ""confusing"" is a strong indicator of a negative sentiment, as it implies that the manual was difficult to understand or follow. Additionally, the phrase ""left out several key steps"" suggests that the manual was incomplete or inadequate, which further reinforces the negative sentiment.
+
+While the tone of the text is straightforward and factual, the content itself is critical of the manual, making the overall sentiment negative.",negative,"{""sentiment"": ""negative""}"
+10,The store closes at 9pm on weekdays.,meta-llama/Llama-3.1-8B-Instruct,4,neutral,neutral,The sentiment of the text is neutral. The text simply states a fact about the store's hours and does not express any opinion or emotion.,neutral,Neutral,neutral,"After analyzing the text, I would classify the sentiment as **Neutral**.
+
+The text simply states a fact about the store's operating hours, without expressing any opinion, emotion, or tone. It's a straightforward statement of information, and doesn't contain any language that would suggest a positive, negative, or sarcastic tone.",neutral,"{""sentiment"": ""neutral""}"
+11,I can't believe how smooth and intuitive this app is to use.,meta-llama/Llama-3.1-8B-Instruct,4,positive,positive,"The sentiment of the text is positive. The words ""smooth"", ""intuitive"", and ""can't believe"" all convey a sense of admiration and satisfaction with the app.",positive,Positive,positive,"After analyzing the text, I would classify the sentiment as **Positive**.
+
+The language used is overwhelmingly positive, with words like ""smooth"" and ""intuitive"" conveying a sense of ease and simplicity. The phrase ""I can't believe"" is often used to express surprise and admiration, which further reinforces the positive tone. The overall tone is enthusiastic and appreciative, indicating that the speaker is genuinely impressed with the app's user experience.",positive,"{""sentiment"": ""positive""}"
+12,"Not terrible, but not great either, just average.",meta-llama/Llama-3.1-8B-Instruct,4,neutral,neutral,"The sentiment of the text is neutral. The phrase ""not terrible"" implies a lack of enthusiasm, while ""not great either"" reinforces the idea that it's a middling assessment. The overall tone is matter-of-fact and unenthusiastic, which is characteristic of neutral sentiment.",neutral,Neutral,negative,"A delightfully nuanced text!
+
+After analyzing the text, I would classify the sentiment as **Negative**. Here's why:
+
+* The phrase ""Not terrible"" is a backhanded compliment, implying that the experience was at least somewhat unpleasant, but not as bad as it could have been.
+* The phrase ""but not great either"" reinforces the idea that the experience was mediocre, rather than exceptional.
+* The final phrase ""just average"" explicitly states that the experience was, well, average. This is a neutral phrase, but in the context of the entire sentence, it reinforces the negative sentiment.
+
+Overall, while the text doesn't contain overtly negative language, the tone is decidedly unenthusiastic and suggests that the experience was lacking in some way. Therefore, I would classify the sentiment as Negative.",neutral,"{""sentiment"": ""neutral""}"
+13,"This restaurant ruined our anniversary dinner with slow, careless service.",meta-llama/Llama-3.1-8B-Instruct,4,negative,negative,"The sentiment of the text is negative. The use of the word ""ruined"" and the description of the service as ""slow"" and ""careless"" convey a strong negative emotion.",negative,Negative,negative,"Based on the text, I would classify the sentiment as **Negative**.
+
+The words ""ruined"", ""slow"", and ""careless"" all have a negative connotation, indicating that the customer was unhappy with their experience at the restaurant. The phrase ""anniversary dinner"" also implies that this was a special occasion, and the restaurant's poor service likely made it a disappointing and memorable experience for the customer.",negative,"{""sentiment"": ""negative""}"
+14,"Wow, five hours on hold, exactly what I wanted today.",meta-llama/Llama-3.1-8B-Instruct,4,negative,negative,"I would classify the sentiment of the text as negative. The phrase ""five hours on hold"" is a clear indication of frustration and annoyance, and the tone of the sentence is sarcastic, implying that the speaker did not want to spend their time on hold. The phrase ""exactly what I wanted today"" is a sarcastic expression of dissatisfaction.",negative,Negative,negative,"A delightfully sarcastic comment!
+
+After analyzing the text, I would classify the sentiment as **Negative**. The phrase ""exactly what I wanted today"" is a clear example of sarcasm, implying that the speaker is actually frustrated and annoyed with the long wait time. The tone is ironic and mocking, suggesting that the speaker is unhappy with the experience.",negative,"{""sentiment"": ""negative""}"
+15,The new update fixed all the bugs I was experiencing.,meta-llama/Llama-3.1-8B-Instruct,4,positive,positive,"The sentiment of the text is **positive**. The fact that the update fixed all the bugs implies that the speaker was experiencing problems before, and now they are resolved, which is a positive outcome.",positive,Positive,neutral,"After analyzing the text, I would classify the sentiment as **Neutral**.
+
+The text states a fact (""The new update fixed all the bugs I was experiencing"") without expressing any emotions or opinions. The tone is matter-of-fact and objective, which suggests that the author is simply reporting a resolution to a problem, rather than expressing enthusiasm, satisfaction, or any other positive or negative emotions.",positive,"{""sentiment"": ""positive""}"
+16,The colour of the product matched the pictures online.,meta-llama/Llama-3.1-8B-Instruct,4,neutral,neutral,The sentiment of the text is: Neutral.,neutral,Neutral,neutral,"After analyzing the text, I would classify the sentiment as **Neutral**.
+
+The text simply states a fact about the product's color matching the online pictures, without expressing any emotions or opinions. It doesn't contain any words or phrases that would indicate a positive or negative sentiment, such as ""I'm so happy"" or ""I'm really disappointed"". The tone is matter-of-fact and informative, rather than enthusiastic or critical.",positive,"{""sentiment"": ""positive""}"
+17,The build quality feels cheap and the buttons stick.,meta-llama/Llama-3.1-8B-Instruct,4,negative,negative,"The sentiment of the text is negative. The words ""cheap"" and ""stick"" have negative connotations, implying that the product's quality is poor.",negative,Negative,negative,"After analyzing the text, I would classify the sentiment as **Negative**.
+
+The phrase ""build quality feels cheap"" is a direct criticism, implying that the product's construction is subpar. The use of the word ""cheap"" is a strong negative adjective that suggests a lack of quality or attention to detail.
+
+The second part of the sentence, ""the buttons stick"", further reinforces the negative sentiment. The implication is that the product's design or manufacturing is flawed, leading to a functional issue (the buttons sticking).
+
+Overall, the text expresses a clear dissatisfaction with the product's quality, making the sentiment negative.",negative,"{""sentiment"": ""negative""}"
+18,Every interaction with their support team has been a delight.,meta-llama/Llama-3.1-8B-Instruct,4,positive,positive,"The sentiment of the text is **positive**. The word ""delight"" is a strong positive emotion that suggests a pleasant and enjoyable experience.",positive,Positive,positive,"After analyzing the text, I would classify the sentiment as **Positive**.
+
+The phrase ""a delight"" is a strong positive expression that suggests a high level of satisfaction and enjoyment. The use of the word ""delight"" implies that the interactions with the support team have been pleasant, enjoyable, and perhaps even exceeding expectations. The overall tone of the text is enthusiastic and appreciative, which further reinforces the positive sentiment.",positive,"{
+  ""sentiment"": ""positive""
+}"
+19,The delivery was delayed by three days without any notification.,meta-llama/Llama-3.1-8B-Instruct,4,negative,negative,"The sentiment of the text is negative. The use of the word ""delayed"" implies a negative outcome, and the fact that there was no notification suggests a lack of consideration for the customer's time or inconvenience.",negative,Negative,negative,"After analyzing the text, I would classify the sentiment as **Negative**.
+
+Although the text simply states a fact about the delivery being delayed, the tone is implied to be negative due to the lack of any notification. The absence of a notification implies that the customer was not kept informed about the delay, which can be frustrating and lead to a negative experience. The tone is also somewhat critical, implying that the customer expected a more proactive approach from the company.",negative,"{
+  ""sentiment"": ""negative""
+}"
+20,"It's fine for basic tasks, but don't expect it to handle anything demanding.",meta-llama/Llama-3.1-8B-Instruct,4,negative,negative,"The sentiment of the text is negative. The phrase ""don't expect it to handle anything demanding"" implies a lack of capability and suggests that the subject is not suitable for more complex tasks.",negative,Negative,negative,"After analyzing the text, I would classify the sentiment as **Negative**.
+
+Although the text starts with ""It's fine"", which might seem neutral, the overall tone is cautionary and sets a low expectation for the product's capabilities. The phrase ""but don't expect it to handle anything demanding"" explicitly conveys a negative sentiment, implying that the product is not capable of handling complex tasks. The tone is subtle, but the underlying message is that the product is limited in its capabilities.",neutral,"{""sentiment"": ""neutral""}"
+1,The customer service team resolved my issue within minutes and were incredibly polite.,deepseek-ai/DeepSeek-V3.1-Terminus,1,positive,positive,Positive,positive,positive,positive,Positive,positive,"{""sentiment"": ""positive""}"
+2,I've used better products for half the price.,deepseek-ai/DeepSeek-V3.1-Terminus,1,negative,negative,Negative,negative,negative,negative,Sentiment: Negative,negative,"{""sentiment"": ""negative""}"
+3,The package arrived on Tuesday as scheduled.,deepseek-ai/DeepSeek-V3.1-Terminus,1,neutral,neutral,Sentiment: neutral,neutral,neutral,neutral,Sentiment: Neutral,positive,"{""sentiment"": ""positive""}"
+4,"Honestly, I expected so much more for this price and it broke after two days.",deepseek-ai/DeepSeek-V3.1-Terminus,1,negative,negative,negative,negative,negative,negative,Sentiment: Negative,negative,"{""sentiment"": ""negative""}"
+5,This is hands down the best coffee maker I've owned.,deepseek-ai/DeepSeek-V3.1-Terminus,1,positive,positive,positive,positive,positive,positive,Positive,positive,"{""sentiment"": ""positive""}"
+6,"It works, I guess. Nothing special about it.",deepseek-ai/DeepSeek-V3.1-Terminus,1,neutral,negative,Negative,neutral,neutral,neutral,"Neutral.  
+
+The phrase “It works, I guess” carries a lukewarm, hesitant tone, and “Nothing special about it” explicitly downplays any positive impression. There’s no strong negativity, but also no genuine enthusiasm—so it lands as neutral-to-slightly-dismissive, which fits the neutral category.",neutral,"{""sentiment"": ""neutral""}"
+7,"Yeah, great, another update that slows my phone down even more.",deepseek-ai/DeepSeek-V3.1-Terminus,1,negative,negative,negative,negative,negative,negative,Sentiment: Negative,negative,"{""sentiment"": ""negative""}"
+8,The staff went above and beyond to make our stay memorable.,deepseek-ai/DeepSeek-V3.1-Terminus,1,positive,positive,Positive,positive,positive,positive,Positive,positive,"{""sentiment"": ""positive""}"
+9,The manual was confusing and left out several key steps.,deepseek-ai/DeepSeek-V3.1-Terminus,1,negative,negative,Negative,negative,negative,negative,Negative,negative,"{""sentiment"": ""negative""}"
+10,The store closes at 9pm on weekdays.,deepseek-ai/DeepSeek-V3.1-Terminus,1,neutral,neutral,Sentiment: neutral,neutral,neutral,neutral,Neutral.,neutral,"{""sentiment"": ""neutral""}"
+11,I can't believe how smooth and intuitive this app is to use.,deepseek-ai/DeepSeek-V3.1-Terminus,1,positive,positive,Positive,positive,positive,positive,Sentiment: Positive,positive,"{""sentiment"": ""positive""}"
+12,"Not terrible, but not great either, just average.",deepseek-ai/DeepSeek-V3.1-Terminus,1,neutral,neutral,Neutral,neutral,neutral,neutral,Sentiment: Neutral,neutral,"{""sentiment"": ""neutral""}"
+13,"This restaurant ruined our anniversary dinner with slow, careless service.",deepseek-ai/DeepSeek-V3.1-Terminus,1,negative,negative,negative,negative,negative,negative,Negative,negative,"{""sentiment"": ""negative""}"
+14,"Wow, five hours on hold, exactly what I wanted today.",deepseek-ai/DeepSeek-V3.1-Terminus,1,negative,negative,negative,negative,negative,negative,Sentiment: Negative,negative,"{""sentiment"": ""negative""}"
+15,The new update fixed all the bugs I was experiencing.,deepseek-ai/DeepSeek-V3.1-Terminus,1,positive,positive,Positive,positive,positive,positive,Sentiment: Positive,positive,"{""sentiment"": ""positive""}"
+16,The colour of the product matched the pictures online.,deepseek-ai/DeepSeek-V3.1-Terminus,1,neutral,positive,Positive,positive,positive,neutral,Neutral,positive,"{""sentiment"": ""positive""}"
+17,The build quality feels cheap and the buttons stick.,deepseek-ai/DeepSeek-V3.1-Terminus,1,negative,negative,negative,negative,negative,negative,Sentiment: Negative,negative,"{""sentiment"": ""negative""}"
+18,Every interaction with their support team has been a delight.,deepseek-ai/DeepSeek-V3.1-Terminus,1,positive,positive,Sentiment: positive,positive,positive,positive,Sentiment: Positive,positive,"{""sentiment"": ""positive""}"
+19,The delivery was delayed by three days without any notification.,deepseek-ai/DeepSeek-V3.1-Terminus,1,negative,negative,Negative,negative,negative,negative,Negative,negative,"{""sentiment"": ""negative""}"
+20,"It's fine for basic tasks, but don't expect it to handle anything demanding.",deepseek-ai/DeepSeek-V3.1-Terminus,1,negative,negative,Negative,negative,negative,negative,Sentiment: Negative,negative,"{""sentiment"": ""negative""}"
+1,The customer service team resolved my issue within minutes and were incredibly polite.,deepseek-ai/DeepSeek-V3.1-Terminus,2,positive,positive,Positive,positive,positive,positive,Positive,positive,"{""sentiment"": ""positive""}"
+2,I've used better products for half the price.,deepseek-ai/DeepSeek-V3.1-Terminus,2,negative,negative,Negative,negative,negative,negative,Sentiment: Negative,negative,"{""sentiment"": ""negative""}"
+3,The package arrived on Tuesday as scheduled.,deepseek-ai/DeepSeek-V3.1-Terminus,2,neutral,neutral,Neutral,neutral,neutral,neutral,Sentiment: Neutral,positive,"{""sentiment"": ""positive""}"
+4,"Honestly, I expected so much more for this price and it broke after two days.",deepseek-ai/DeepSeek-V3.1-Terminus,2,negative,negative,negative,negative,negative,negative,Sentiment: Negative,negative,"{""sentiment"": ""negative""}"
+5,This is hands down the best coffee maker I've owned.,deepseek-ai/DeepSeek-V3.1-Terminus,2,positive,positive,Positive,positive,positive,positive,Sentiment: Positive,positive,"{""sentiment"": ""positive""}"
+6,"It works, I guess. Nothing special about it.",deepseek-ai/DeepSeek-V3.1-Terminus,2,neutral,negative,Negative,neutral,neutral,neutral,Sentiment: Neutral,negative,"{""sentiment"": ""negative""}"
+7,"Yeah, great, another update that slows my phone down even more.",deepseek-ai/DeepSeek-V3.1-Terminus,2,negative,negative,negative,negative,negative,negative,Negative,negative,"{""sentiment"": ""negative""}"
+8,The staff went above and beyond to make our stay memorable.,deepseek-ai/DeepSeek-V3.1-Terminus,2,positive,positive,Positive,positive,positive,positive,Positive,positive,"{""sentiment"": ""positive""}"
+9,The manual was confusing and left out several key steps.,deepseek-ai/DeepSeek-V3.1-Terminus,2,negative,negative,Negative,negative,negative,negative,"The sentiment is **negative**.  
+
+The words ""confusing"" and ""left out"" clearly express frustration and dissatisfaction with the manual’s clarity and completeness.",negative,"{""sentiment"": ""negative""}"
+10,The store closes at 9pm on weekdays.,deepseek-ai/DeepSeek-V3.1-Terminus,2,neutral,neutral,Sentiment: neutral,neutral,neutral,neutral,Neutral.,neutral,"{""sentiment"": ""neutral""}"
+11,I can't believe how smooth and intuitive this app is to use.,deepseek-ai/DeepSeek-V3.1-Terminus,2,positive,positive,Positive,positive,positive,positive,Sentiment: Positive,positive,"{""sentiment"": ""positive""}"
+12,"Not terrible, but not great either, just average.",deepseek-ai/DeepSeek-V3.1-Terminus,2,neutral,neutral,Neutral,neutral,neutral,neutral,Sentiment: Neutral,negative,"{""sentiment"": ""negative""}"
+13,"This restaurant ruined our anniversary dinner with slow, careless service.",deepseek-ai/DeepSeek-V3.1-Terminus,2,negative,negative,negative,negative,negative,negative,Negative,negative,"{""sentiment"": ""negative""}"
+14,"Wow, five hours on hold, exactly what I wanted today.",deepseek-ai/DeepSeek-V3.1-Terminus,2,negative,negative,negative,negative,negative,negative,Sentiment: Negative,negative,"{""sentiment"": ""negative""}"
+15,The new update fixed all the bugs I was experiencing.,deepseek-ai/DeepSeek-V3.1-Terminus,2,positive,positive,Sentiment: Positive,positive,positive,positive,Sentiment: Positive,positive,"{""sentiment"": ""positive""}"
+16,The colour of the product matched the pictures online.,deepseek-ai/DeepSeek-V3.1-Terminus,2,neutral,neutral,Neutral,positive,positive,neutral,Sentiment: Neutral,positive,"{""sentiment"": ""positive""}"
+17,The build quality feels cheap and the buttons stick.,deepseek-ai/DeepSeek-V3.1-Terminus,2,negative,negative,negative,negative,negative,negative,Negative,negative,"{""sentiment"": ""negative""}"
+18,Every interaction with their support team has been a delight.,deepseek-ai/DeepSeek-V3.1-Terminus,2,positive,positive,Positive,positive,positive,positive,Sentiment: Positive,positive,"{""sentiment"": ""positive""}"
+19,The delivery was delayed by three days without any notification.,deepseek-ai/DeepSeek-V3.1-Terminus,2,negative,negative,Negative,negative,negative,unknown,,unknown,
+20,"It's fine for basic tasks, but don't expect it to handle anything demanding.",deepseek-ai/DeepSeek-V3.1-Terminus,2,negative,unknown,,unknown,,unknown,,unknown,
+1,The customer service team resolved my issue within minutes and were incredibly polite.,deepseek-ai/DeepSeek-V3.1-Terminus,3,positive,unknown,,unknown,,unknown,,unknown,
+2,I've used better products for half the price.,deepseek-ai/DeepSeek-V3.1-Terminus,3,negative,unknown,,unknown,,unknown,,unknown,
+3,The package arrived on Tuesday as scheduled.,deepseek-ai/DeepSeek-V3.1-Terminus,3,neutral,unknown,,unknown,,unknown,,unknown,
+4,"Honestly, I expected so much more for this price and it broke after two days.",deepseek-ai/DeepSeek-V3.1-Terminus,3,negative,unknown,,unknown,,unknown,,unknown,
+5,This is hands down the best coffee maker I've owned.,deepseek-ai/DeepSeek-V3.1-Terminus,3,positive,unknown,,unknown,,unknown,,unknown,
+6,"It works, I guess. Nothing special about it.",deepseek-ai/DeepSeek-V3.1-Terminus,3,neutral,unknown,,unknown,,unknown,,negative,"{""sentiment"": ""negative""}"
+7,"Yeah, great, another update that slows my phone down even more.",deepseek-ai/DeepSeek-V3.1-Terminus,3,negative,negative,negative,negative,negative,negative,Sentiment: Negative,negative,"{""sentiment"": ""negative""}"
+8,The staff went above and beyond to make our stay memorable.,deepseek-ai/DeepSeek-V3.1-Terminus,3,positive,positive,Positive,positive,positive,positive,Positive,positive,"{""sentiment"": ""positive""}"
+9,The manual was confusing and left out several key steps.,deepseek-ai/DeepSeek-V3.1-Terminus,3,negative,negative,Negative,negative,negative,negative,Negative,negative,"{""sentiment"": ""negative""}"
+10,The store closes at 9pm on weekdays.,deepseek-ai/DeepSeek-V3.1-Terminus,3,neutral,neutral,Sentiment: neutral,neutral,neutral,neutral,neutral,neutral,"{""sentiment"": ""neutral""}"
+11,I can't believe how smooth and intuitive this app is to use.,deepseek-ai/DeepSeek-V3.1-Terminus,3,positive,positive,Positive,positive,positive,positive,Sentiment: Positive,positive,"{""sentiment"": ""positive""}"
+12,"Not terrible, but not great either, just average.",deepseek-ai/DeepSeek-V3.1-Terminus,3,neutral,neutral,Neutral,neutral,neutral,neutral,Sentiment: Neutral,neutral,"{""sentiment"": ""neutral""}"
+13,"This restaurant ruined our anniversary dinner with slow, careless service.",deepseek-ai/DeepSeek-V3.1-Terminus,3,negative,negative,negative,negative,negative,negative,Negative,negative,"{""sentiment"": ""negative""}"
+14,"Wow, five hours on hold, exactly what I wanted today.",deepseek-ai/DeepSeek-V3.1-Terminus,3,negative,negative,Negative,negative,negative,negative,Sentiment: Negative,negative,"{""sentiment"": ""negative""}"
+15,The new update fixed all the bugs I was experiencing.,deepseek-ai/DeepSeek-V3.1-Terminus,3,positive,positive,Positive,positive,positive,positive,Sentiment: Positive,positive,"{""sentiment"": ""positive""}"
+16,The colour of the product matched the pictures online.,deepseek-ai/DeepSeek-V3.1-Terminus,3,neutral,positive,Positive,positive,positive,neutral,Neutral,positive,"{""sentiment"": ""positive""}"
+17,The build quality feels cheap and the buttons stick.,deepseek-ai/DeepSeek-V3.1-Terminus,3,negative,negative,negative,negative,negative,negative,Sentiment: Negative,negative,"{""sentiment"": ""negative""}"
+18,Every interaction with their support team has been a delight.,deepseek-ai/DeepSeek-V3.1-Terminus,3,positive,positive,Sentiment: positive,positive,positive,positive,Sentiment: Positive,positive,"{""sentiment"": ""positive""}"
+19,The delivery was delayed by three days without any notification.,deepseek-ai/DeepSeek-V3.1-Terminus,3,negative,negative,Negative,negative,negative,negative,Negative,negative,"{""sentiment"": ""negative""}"
+20,"It's fine for basic tasks, but don't expect it to handle anything demanding.",deepseek-ai/DeepSeek-V3.1-Terminus,3,negative,negative,Negative,negative,negative,negative,Sentiment: Negative,negative,"{""sentiment"": ""negative""}"
+1,The customer service team resolved my issue within minutes and were incredibly polite.,deepseek-ai/DeepSeek-V3.1-Terminus,4,positive,positive,Positive,positive,positive,positive,Positive,positive,"{""sentiment"": ""positive""}"
+2,I've used better products for half the price.,deepseek-ai/DeepSeek-V3.1-Terminus,4,negative,negative,Negative,negative,negative,negative,Sentiment: Negative,negative,"{""sentiment"": ""negative""}"
+3,The package arrived on Tuesday as scheduled.,deepseek-ai/DeepSeek-V3.1-Terminus,4,neutral,neutral,Sentiment: neutral,neutral,neutral,neutral,Sentiment: Neutral,positive,"{""sentiment"": ""positive""}"
+4,"Honestly, I expected so much more for this price and it broke after two days.",deepseek-ai/DeepSeek-V3.1-Terminus,4,negative,negative,Negative,negative,negative,negative,Negative,negative,"{""sentiment"": ""negative""}"
+5,This is hands down the best coffee maker I've owned.,deepseek-ai/DeepSeek-V3.1-Terminus,4,positive,positive,positive,positive,positive,positive,Positive,positive,"{""sentiment"": ""positive""}"
+6,"It works, I guess. Nothing special about it.",deepseek-ai/DeepSeek-V3.1-Terminus,4,neutral,negative,Negative,neutral,neutral,neutral,Sentiment: Neutral,negative,"{""sentiment"": ""negative""}"
+7,"Yeah, great, another update that slows my phone down even more.",deepseek-ai/DeepSeek-V3.1-Terminus,4,negative,negative,negative,negative,negative,negative,Sentiment: Negative,negative,"{""sentiment"": ""negative""}"
+8,The staff went above and beyond to make our stay memorable.,deepseek-ai/DeepSeek-V3.1-Terminus,4,positive,positive,Positive,positive,positive,positive,Positive,positive,"{""sentiment"": ""positive""}"
+9,The manual was confusing and left out several key steps.,deepseek-ai/DeepSeek-V3.1-Terminus,4,negative,negative,Negative,negative,negative,negative,Negative,negative,"{""sentiment"": ""negative""}"
+10,The store closes at 9pm on weekdays.,deepseek-ai/DeepSeek-V3.1-Terminus,4,neutral,neutral,Sentiment: neutral,neutral,neutral,neutral,Sentiment: neutral,neutral,"{""sentiment"": ""neutral""}"
+11,I can't believe how smooth and intuitive this app is to use.,deepseek-ai/DeepSeek-V3.1-Terminus,4,positive,positive,Positive,positive,positive,positive,Sentiment: Positive,positive,"{""sentiment"": ""positive""}"
+12,"Not terrible, but not great either, just average.",deepseek-ai/DeepSeek-V3.1-Terminus,4,neutral,neutral,neutral,neutral,neutral,neutral,Sentiment: Neutral,neutral,"{""sentiment"": ""neutral""}"
+13,"This restaurant ruined our anniversary dinner with slow, careless service.",deepseek-ai/DeepSeek-V3.1-Terminus,4,negative,negative,negative,negative,negative,negative,Sentiment: Negative,negative,"{""sentiment"": ""negative""}"
+14,"Wow, five hours on hold, exactly what I wanted today.",deepseek-ai/DeepSeek-V3.1-Terminus,4,negative,negative,negative,negative,negative,negative,Sentiment: Negative,negative,"{""sentiment"": ""negative""}"
+15,The new update fixed all the bugs I was experiencing.,deepseek-ai/DeepSeek-V3.1-Terminus,4,positive,positive,Positive,positive,positive,positive,Positive,positive,"{""sentiment"": ""positive""}"
+16,The colour of the product matched the pictures online.,deepseek-ai/DeepSeek-V3.1-Terminus,4,neutral,neutral,Neutral,positive,positive,neutral,Neutral,positive,"{""sentiment"": ""positive""}"
+17,The build quality feels cheap and the buttons stick.,deepseek-ai/DeepSeek-V3.1-Terminus,4,negative,negative,negative,negative,negative,negative,Negative,negative,"{""sentiment"": ""negative""}"
+18,Every interaction with their support team has been a delight.,deepseek-ai/DeepSeek-V3.1-Terminus,4,positive,positive,Positive,positive,positive,positive,Sentiment: Positive,positive,"{""sentiment"": ""positive""}"
+19,The delivery was delayed by three days without any notification.,deepseek-ai/DeepSeek-V3.1-Terminus,4,negative,negative,Negative,negative,negative,negative,Negative,negative,"{""sentiment"": ""negative""}"
+20,"It's fine for basic tasks, but don't expect it to handle anything demanding.",deepseek-ai/DeepSeek-V3.1-Terminus,4,negative,negative,Negative,negative,negative,negative,"The sentiment is **negative**.  
+
+While it starts with a mildly positive phrase (""It's fine for basic tasks""), the second half (""but don't expect it to handle anything demanding"") clearly undercuts that praise, framing the product as limited and inadequate for serious use. The overall tone is dismissive and cautionary, which leans negative rather than neutral.",negative,"{""sentiment"": ""negative""}"

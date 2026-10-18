@@ -1,0 +1,4 @@
+pandas>=2.0
+requests>=2.31
+tqdm>=4.66
+python-dotenv>=1.0   # optional: lets run_evaluation.py read HF_API_TOKEN from a .env file

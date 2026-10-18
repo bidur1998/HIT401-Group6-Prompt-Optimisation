@@ -1,0 +1,9 @@
+model,prompt_category,num_iterations,total_samples,reliability_percent,consistency_percent,average_pairwise_agreement_percent,average_cohens_kappa
+meta-llama/Llama-3.1-8B-Instruct,baseline,4,20,97.5,90.0,95.0,0.9214
+meta-llama/Llama-3.1-8B-Instruct,instruction,4,20,100.0,100.0,100.0,1.0
+meta-llama/Llama-3.1-8B-Instruct,role,4,20,98.75,95.0,97.5,0.9567
+meta-llama/Llama-3.1-8B-Instruct,structured,4,20,100.0,100.0,100.0,1.0
+deepseek-ai/DeepSeek-V3.1-Terminus,baseline,4,20,88.75,60.0,79.17,0.7074
+deepseek-ai/DeepSeek-V3.1-Terminus,instruction,4,20,91.25,65.0,82.5,0.7595
+deepseek-ai/DeepSeek-V3.1-Terminus,role,4,20,90.0,60.0,80.0,0.7286
+deepseek-ai/DeepSeek-V3.1-Terminus,structured,4,20,88.75,55.0,77.5,0.6643
